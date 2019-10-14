@@ -1,0 +1,30 @@
+h2 {
+  border-bottom: 2px black solid ;
+}
+
+
+:root {
+  --text-color-normal: #0a244d;
+  --text-color-light: #8cabd9;
+  --bg-color-normal: white;
+}
+
+:root[data-theme='dark'] {
+  --text-color-normal: hsl(210, 10%, 62%);
+  --text-color-light: hsl(210, 15%, 35%);
+  --text-color-richer: hsl(210, 50%, 72%);
+  --text-color-highlight: hsl(25, 70%, 45%);
+  --bg-color-normal: hsl(231, 90%, 4%);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background: black;
+    color: white;
+  }
+
+  a {
+    color: hsl(50, 100%, 91%);
+  }
+}
+ 
