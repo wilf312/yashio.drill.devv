@@ -25,6 +25,12 @@ const App = () => {
     <p>
       <A href="https://www.city.yashio.lg.jp/kurashi/bohan_bosai/bosai/hazardmap/index.html" blank>ハザードマップ 洪水・地震・内水</A>
     </p>
+    <p>
+      <A href="https://github.com/wilf312/yashio.drill.dev/raw/master/public/mini.pdf" blank>ハザードマップ 洪水 圧縮版 4.2MB</A>
+    </p>
+    <p>
+      <A href="https://github.com/wilf312/yashio.drill.dev/raw/master/public/floodmap_full.pdf" blank>ハザードマップ 洪水 フル版 17.4MB</A>
+    </p>
 
     <h2>水害リンク</h2>
     <p>
