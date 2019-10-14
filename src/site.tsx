@@ -1,9 +1,75 @@
 import * as React from "react";
 import ReactDOM from "react-dom";
+import { A } from './component/atom/A/A'
 
 const App = () => {
   return <div>
-    <h1>hello world!</h1>
+    <h1>八潮市災害サイトマップ / yashio hazard site map</h1>
+
+    <h2>八潮市 避難場所一覧</h2>
+    <p>
+      <A href="https://goo.gl/maps/k3LDkZKDqCrLxLSo9" blank>Google Map</A>
+    </p>
+    <p>
+      <A href="https://www.city.yashio.lg.jp/kurashi/bohan_bosai/bosai/hinan/hinanjo.html" blank>八潮市 公式一覧</A>
+    </p>
+    <h2>八潮市 お知らせ</h2>
+    <p>
+      <A href="https://www.city.yashio.lg.jp/kurashi/bohan_bosai/bosai/oshirase/index.html" blank>八潮市 防災 お知らせ</A>
+    </p>
+    <p>
+      <A href="https://www.city.yashio.lg.jp/allNewsList.html" blank>八潮市 全体 お知らせ</A>
+    </p>
+
+    <h2>八潮市 ハザードマップ</h2>
+    <p>
+      <A href="https://www.city.yashio.lg.jp/kurashi/bohan_bosai/bosai/hazardmap/index.html" blank>ハザードマップ 洪水・地震・内水</A>
+    </p>
+
+    <h2>水害リンク</h2>
+    <p>
+      <A href="https://typhoon.yahoo.co.jp/weather/river/" blank>河川水位情報</A>
+    </p>
+    <p>
+      <A href="https://zutool.jp/" blank>頭痛ーる：気圧予報で体調管理　全国700万人の気象病対策アプリ</A>
+    </p>
+    <p>
+      <A href="https://www.windy.com/35.819/139.839?35.310,139.839,8,m:eEQaj2e" blank>台風可視化 Windy: Wind map &amp; weather forecast</A>
+    </p>
+
+    <h2>交通網</h2>
+    <p>
+      <A href="https://traininfo.jreast.co.jp/train_info/kanto.aspx" blank>JR運行状況</A>
+    </p>
+    <p>
+      <A href="https://www.tokyo-airport-bldg.co.jp/flight/" blank>フライト情報 | 羽田空港国内線旅客ターミナル</A>
+    </p>
+    <p>
+      <A href="http://www.haneda-airport.jp/inter/flight/company_list.html" blank>羽田空港 就航航空会社一覧</A>
+    </p>
+    <p>
+      <A href="http://www.haneda-airport.jp/inter/flight/showFlightInfoSearch?langId=ja" blank>フライト検索</A>
+    </p>
+    <p>
+      <A href="https://ihighway.jp/pcsite/map/?area=area04" blank>高速道路 運行状況</A>
+    </p>
+
+
+    <h2>募金のやり方</h2>
+    <p>
+      <A href="https://www.youtube.com/watch?v=dN07VPzK3eQ" blank>Youtube</A>
+    </p>
+
+
+
+
+
+
+
+
+
+
+
   </div>;
 };
 
