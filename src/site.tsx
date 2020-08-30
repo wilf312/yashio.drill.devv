@@ -79,6 +79,11 @@ const App = () => {
       <A href="https://www.youtube.com/watch?v=dN07VPzK3eQ" blank>募金のやり方 Youtube</A>
     </p>
 
+
+    <h2>子育て</h2>
+    <p>
+      <A href="https://goo.gl/maps/wcf4bXZEe6fLokUq7" blank>八潮 予防接種委託先 vaccination</A>
+    </p>
   </div>;
 };
 
